@@ -1,5 +1,4 @@
-# Project Title
-WQU-ML_FIN-Project-Submission3/submission3.ipynb
+# WQU Machine Learning in Finance Group Work Project
 
 Using dollar bars of Bitcoin data from the Bitstamp exchange, a trading strategy was created that would take long and short positions on the basis of momentum and driven by technical indicators such exponential moving average, relative strength index, and commodity channel index.  The model is then fitted using decision tree, random forest, logistic regression, and support vector machine.  Each model is then tuned and evaluated for accuracy and robustness.  Finally, return and risk metrics are generated for the trading system to quantify expectations and to evaluate if the system should be used. 
 
