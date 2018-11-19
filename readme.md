@@ -65,22 +65,6 @@ Please read [README.md](https://github.com/WQU-ML-GroupProject) for details on o
 ## Versioning
 
 
-## Authors
-
-Bassem Yacoube (bassemfg@gmx.net) 
-
-Ravindra Rapaka (ravindranath.rapaka@gmail.com)
-
-Trevor Mooney (trevor.r.mooney@gmail.com) 
-
-Roksana Tkachenko (roksana.tkachenko@gmail.com) 
-
-Adeniyi Makanjuola (adeniyimakanjuola5@gmail.com)
-
-
-## License
-
-
 ## Acknowledgments
 
 
