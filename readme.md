@@ -64,7 +64,11 @@ Below is an overview of the different steps performed in this project
 
 * Accuracy, Precision, Recall, F-Score, ROC curves and Confusion Matrices are calculated 
 
-* Backtrader and PyFolio are used to backtest the trading system and generate the fund factsheet
+* Backtrader and PyFolio are used to backtest the trading system and generate the fund factsheet data for
+  * Maximum Drawdown
+  * Annualized Returns
+  * Sharpe Ratio
+  * Plot the Equity Curve
 
 ## Built With
 
