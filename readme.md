@@ -10,41 +10,28 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install the software and how to install them
 
-pip install numpy
-pip install pandas
+pip install numpy==1.14.5 pandas==0.23.1 tensorflow==1.8.0 statsmodels==0.9.0 scikit-image==0.14.0 scikit-learn==0.19.1 Keras==2.2.0 kmeans==1.0.2 jupyterlab==0.32.1 ipython==6.4.0 ipywidgets==7.2.1 ipython-genutils==0.2.0 ipykernel==4.8.2 h5py==2.8.0 Faker==0.9.1 Babel==2.6.0 matplotlib==2.2.2 nodejs
+
+pip install backtrader
+pip install pyfolio
 pip install matplotlib
 pip install seaborn
 pip install scipy
 pip install statsmodels
-pip install mpl_finance
+pip install https://github.com/matplotlib/mpl_finance/archive/master.zip
+pip install sklearn
+pip install pymc3
 pip install sklearn
 
 
+## Running the notebooks
+
+- Start a command prompt on Windows or Terminal on MacOs
+- Browse to the folder you unzipped the .ipynb file.
+- Type 
 ```
-Give examples
+jupyter notebook
 ```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
 
 ### Break down into end to end tests
 
