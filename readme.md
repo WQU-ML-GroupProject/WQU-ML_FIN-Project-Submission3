@@ -57,14 +57,15 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-
-## Contributing
-
-Please read [README.md](https://github.com/WQU-ML-GroupProject) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
+Python 3.7
 
 
 ## Acknowledgments
 
-
+```
+https://github.com/BlackArbsCEO/Adv_Fin_ML_Exercises
+https://github.com/Jackal08/Adv_Fin_ML_Exercises
+https://github.com/quantopian/pyfolio
+https://github.com/Rachnog/Deep-Trading
+https://github.com/backtrader/backtrader
+```
