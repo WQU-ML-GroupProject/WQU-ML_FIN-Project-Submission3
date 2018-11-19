@@ -58,13 +58,18 @@ Add additional notes about how to deploy this on a live system
 
 Python 3.7
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
+* Hat tip to anyone whose code was used 
+
 ```
-https://github.com/BlackArbsCEO/Adv_Fin_ML_Exercises
-https://github.com/Jackal08/Adv_Fin_ML_Exercises
-https://github.com/quantopian/pyfolio
-https://github.com/Rachnog/Deep-Trading
-https://github.com/backtrader/backtrader
+(https://github.com/BlackArbsCEO/Adv_Fin_ML_Exercises)
+(https://github.com/Jackal08/Adv_Fin_ML_Exercises)
+(https://github.com/quantopian/pyfolio)
+(https://github.com/backtrader/backtrader)
+(https://github.com/Rachnog/Deep-Trading)
 ```
