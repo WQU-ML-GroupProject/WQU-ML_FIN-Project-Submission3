@@ -9,6 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 What things you need to install the software and how to install them
+```
 
 pip install numpy==1.14.5 pandas==0.23.1 tensorflow==1.8.0 statsmodels==0.9.0 scikit-image==0.14.0 scikit-learn==0.19.1 Keras==2.2.0 kmeans==1.0.2 jupyterlab==0.32.1 ipython==6.4.0 ipywidgets==7.2.1 ipython-genutils==0.2.0 ipykernel==4.8.2 h5py==2.8.0 Faker==0.9.1 Babel==2.6.0 matplotlib==2.2.2 nodejs
 
@@ -22,11 +23,12 @@ pip install https://github.com/matplotlib/mpl_finance/archive/master.zip
 pip install sklearn
 pip install pymc3
 pip install sklearn
+```
 
 
 ## Running the notebooks
 
-- Start a command prompt on Windows or Terminal on MacOs
+- Start a Command Prompt on Windows or Terminal on MacOs
 - Browse to the folder you unzipped the .ipynb file.
 - Type 
 ```
