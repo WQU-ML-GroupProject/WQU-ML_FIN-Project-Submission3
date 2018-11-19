@@ -33,7 +33,7 @@ pip install sklearn
 jupyter notebook
 ```
 
-## Overview of the solution
+## Solution overview
 
 Below is an overview of the different steps performed in this project
 
