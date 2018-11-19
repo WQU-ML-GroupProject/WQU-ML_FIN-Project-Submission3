@@ -34,25 +34,36 @@ pip install sklearn
 jupyter notebook
 ```
 
-### Break down into end to end tests
+## Overview of the solution
 
-Explain what these tests test and why
+* Read tick data from bitstampUSD 
+- time_stamp (in unix time)
+- volume (BTC) - Volume of BTC transacted
+- price (Currency) - Bitcoin price in Currency units
+- data collected over 21 days starts from 28th September 2018 to 18th October 2018
 
-```
-Give an example
-```
+* Create dollar bars from this tick data, since as was discovered earlier, dollar bars have the least serial correlation and closest distribution to a Normal Distribution
 
-### And coding style tests
+* Calculate the returns
 
-Explain what these tests test and why
+* Calculate 20 period volatility as the 20 period std deviation of the log of returns at each bar
 
-```
-Give an example
-```
+* Define a target as 1 if price moves up more than periodVol value, and 0 otherwise
 
-## Deployment
+* Feature engineering and Determing input variable
+- Adding technical indicators
+- Standard Scaling the data 
 
-Add additional notes about how to deploy this on a live system
+* Fitting Models
+- ML Models used to fit
+-- Decision Tree
+-- Random Forest
+-- Logistic Regression
+-- Support Vector Machine
+
+* Accuracy, Precision, Recall, F-Score, ROC curves and Confusion Matrices are calculated 
+
+* Backtrader and PyFolio are used to backtest the trading system and generate the fund factsheet
 
 ## Built With
 
