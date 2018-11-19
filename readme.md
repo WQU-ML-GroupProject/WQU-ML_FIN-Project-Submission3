@@ -66,9 +66,9 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * Hat tip to everyonen below whose code was used in or helped inspire this work
 
-[](https://github.com/BlackArbsCEO/Adv_Fin_ML_Exercises)
-[](https://github.com/Jackal08/Adv_Fin_ML_Exercises)
-[](https://github.com/quantopian/pyfolio)
-[](https://github.com/backtrader/backtrader)
-[](https://github.com/Rachnog/Deep-Trading)
+[BlackArbsCEO](https://github.com/BlackArbsCEO/Adv_Fin_ML_Exercises)
+[Jackal08](https://github.com/Jackal08/Adv_Fin_ML_Exercises)
+[quantopian](https://github.com/quantopian/pyfolio)
+[backtrader](https://github.com/backtrader/backtrader)
+[backtrader](https://github.com/backtrader/Deep-Trading)
 
