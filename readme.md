@@ -28,19 +28,20 @@ pip install sklearn
 ## Running the notebooks
 
 - Start a Command Prompt on Windows or Terminal on MacOs
-- Browse to the folder you unzipped the .ipynb file.
-- Type 
+- Browse to the folder you stored the .ipynb file then run 
 ```
 jupyter notebook
 ```
 
 ## Overview of the solution
 
+Below is an overview of the different steps performed in this project
+
 * Read tick data from bitstampUSD 
-- time_stamp (in unix time)
-- volume (BTC) - Volume of BTC transacted
-- price (Currency) - Bitcoin price in Currency units
-- data collected over 21 days starts from 28th September 2018 to 18th October 2018
+  * time_stamp (in unix time)
+  * volume (BTC) - Volume of BTC transacted
+  * price (Currency) - Bitcoin price in Currency units
+  * data collected over 21 days starts from 28th September 2018 to 18th October 2018
 
 * Create dollar bars from this tick data, since as was discovered earlier, dollar bars have the least serial correlation and closest distribution to a Normal Distribution
 
@@ -51,15 +52,15 @@ jupyter notebook
 * Define a target as 1 if price moves up more than periodVol value, and 0 otherwise
 
 * Feature engineering and Determing input variable
-- Adding technical indicators
-- Standard Scaling the data 
+  * Adding technical indicators
+  * Standard Scaling the data 
 
-* Fitting Models
-- ML Models used to fit
--- Decision Tree
--- Random Forest
--- Logistic Regression
--- Support Vector Machine
+* ML Models
+  * ML Models used to fit
+    * Decision Tree
+    * Random Forest
+    * Logistic Regression
+    * Support Vector Machine
 
 * Accuracy, Precision, Recall, F-Score, ROC curves and Confusion Matrices are calculated 
 
